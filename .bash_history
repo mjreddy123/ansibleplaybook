@@ -86,3 +86,7 @@ ansible all -m get_url -a 'url=https://get.jenkins.io/war-stable/2.277.1/jenkins
 ansible all -m file -a 'name=/tmp/file22 state=touch' -b
 ansible all -m fetch -a 'src=/etc/passwd dest=/tmp' -b
 exit
+git remote add origin https://github.com/mjreddy123/ansibleplaybook.git
+git branch -M main
+git push -u origin main
+exit
