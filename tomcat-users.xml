@@ -1,0 +1,3 @@
+<tomcat-users>
+	<user username="muni" password="muni" roles="manager-script"/>
+</tomcat-users>
