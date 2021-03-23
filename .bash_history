@@ -90,3 +90,72 @@ git remote add origin https://github.com/mjreddy123/ansibleplaybook.git
 git branch -M main
 git push -u origin main
 exit
+ansible all -a 'date'
+vim /etc/ansible/hosts
+sudo vim etc/ansible/hosts
+ansible all -a 'date'
+sudo vim /etc/ansible/hosts
+ansible all -a 'cal'
+ansible all -m apt -a 'name=apache2 state=present' -b
+ansible all -m copy -a 'content="welcome to intelliqit"
+ansible all -m copy -a 'content="welcome to intelliqit"-b
+ansible all -m copy -a 'content="welcome to intelliqit"
+ansible all -m copy -a 'content="welcome to intelliqit" -b
+ansible all -m copy -a 'content="welcome to intelliqit"
+ansible all -m copy -a 'content="welcome to intelliqit" dest=/var/www/html/index.html' -b
+ansible all -m copy -a 'content="welcome to intelliqit"
+ansible all -m copy -a 'content="welcome to intelliqit" dest=/var/www/html/index.html' -b
+ansible all -m copy -a 'content="welcome to intelliqit" dest=/var/www/html/index.html' -b
+ansible all -m service -a 'name=apache2 state= restarted' -b
+ansible all -m service -a 'name=apache2 state=restarted' -b
+ansible all -m replace -a 'regexp=8080 replace=9090 path=/etc/tomcat9/server.xml' -b
+ansible all -m service -a 'name=apache2 state=restarted
+ansible all -m service -a 'name=apache2 state=restarted' -b
+ansible all -m service -a 'name=tomcat9 state=restarted' -b
+ansible all -m uri -a 'url=http://facebook.com status_code=200'
+ansible all -m uri -a 'url=http://faceboojk,yujk.com status_code=200'
+ansible all -m apt -a 'name=tomcat9 state=present'
+ansible all -m apt -a 'name=tomcat9 state=absent'
+ansible all -m apt -a 'name=tomcat9 state=absent' -b
+ansible all -m apt -a 'name=tomcat9 state=present update_cache=yes
+ansible all -m apt -a 'name=tomcat9 state=present update_cache=yes' -b
+cat tomcat-users.xml
+ansible all -m copy -a 'src=tomcat-users.xml dest=/etc/tomcat9' -b
+ansible all -m replace -a 'regexp=8080 replace=9090 path=/etc/tomcat9/server.xml' -b
+ansible all -m service -a 'name=tomcat9 state=restarted' -b
+ansible all -m uri -a 'url=http://172.31.58.224:9090 status_code=200'
+vim playbook1.yml
+ansible-playbook playbook1.yml --syntax-check
+vim playbook1.yml
+ansible-playbook playbook1.yml --syntax-check
+vim playbook1.yml
+ansible-playbook playbook1.yml --syntax-check
+ansible-playbookplaybook1.yml -b
+ansible-playbook playbook1.yml -b
+vim playbook2.yml
+ansible-playbook playbook2.yml --syntax-check
+vim playbook2.yml
+ansible-playbook playbook2.yml --syntax-check
+vim playbook2.yml
+ansible-playbook playbook2.yml --syntax-check
+vim playbook2.yml
+ansible-playbook playbook2.yml --syntax-check
+vim playbook2.yml
+ansible-playbook playbook2.yml --syntax-check
+vim playbook2.yml
+ansible-playbook playbook2.yml --syntax-check
+vim playbook2.yml
+ansible-playbook playbook2.yml --syntax-check
+ansible-playbook playbook2.yml -b
+git init
+git add .
+git commit -m "a"
+ls
+cat file1
+rm file1
+ls
+git init
+git add .
+git status
+git commit -m "a"
+git status

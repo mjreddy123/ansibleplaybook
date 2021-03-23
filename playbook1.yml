@@ -1,41 +1,13 @@
 ---
- - name: Create user
+ - name: create user
    hosts: all
    tasks:
-    - name: User creation
-      user:
-       name: Hari
-       password: intelliqit
-       uid: 1590
-       home: /home/ubuntu/Hari
-       comment: "A normal user"
+    - name: user creation 
+      user: 
+       name: muni
+       password: muni
+       uid: 1996
+       home: /home/ubuntu/muni
+       comment: " A normal user"
        shell: /bin/bash
-...     
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+... 
