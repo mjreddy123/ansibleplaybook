@@ -159,3 +159,14 @@ git add .
 git status
 git commit -m "a"
 git status
+vim playbook3.yml
+vim playbook3.yml
+ls
+vim playbook3.yml
+ansible-playbook.yml
+ansible-playbook playbook3.yml
+ansible-playbook.yml
+vim playbook3.yml
+ansible-playbook playbook3.yml
+vim playbook3.yml
+ansible-playbook playbook3.yml
